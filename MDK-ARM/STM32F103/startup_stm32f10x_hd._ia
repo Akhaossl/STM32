@@ -1,0 +1,7 @@
+--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-I "C:\Users\Lenovo\Desktop\stm32麦轮\麦克纳姆轮系列\V2.1 版本\MDK-ARM\RTE"
+-I "C:\Users\Lenovo\Desktop\stm32麦轮\麦克纳姆轮系列\V2.1 版本\MDK-ARM\RTE\Device\STM32F103RE"
+-I D:\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I D:\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"
+--list startup_stm32f10x_hd.lst --xref -o .\stm32f103\startup_stm32f10x_hd.o --depend .\stm32f103\startup_stm32f10x_hd.d "RTE\Device\STM32F103RE\startup_stm32f10x_hd.s"

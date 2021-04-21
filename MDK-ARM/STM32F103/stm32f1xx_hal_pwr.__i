@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include
+-I D:\Mycar\V2.3\MDK-ARM\RTE
+-I D:\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I D:\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE
+-o .\stm32f103\stm32f1xx_hal_pwr.o --omf_browse .\stm32f103\stm32f1xx_hal_pwr.crf --depend .\stm32f103\stm32f1xx_hal_pwr.d "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c"
